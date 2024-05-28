@@ -1,0 +1,5 @@
+name = "cloudflare-short-links"
+compatibility_date = "2023-12-01"
+
+# uncomment and set to your custom domain
+# routes = [{ pattern = "go.gm.dev", custom_domain = true }]
