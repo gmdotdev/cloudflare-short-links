@@ -12,7 +12,7 @@ Automatic deploys with GitHub Actions.
 
 3. Add `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` [secrets to your GitHub repository](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository).
 
-4. Update [src/app.ts](src/app.ts) and [wrangler.toml](wrangler.toml) as desired with your domain and routes.
+4. Update [src/app.ts](src/app.ts) and [wrangler.toml](wrangler.toml) as desired with your domain and routes. We also recommend changing the `name` in `wrangler.toml` to your own project name.
 
 5. Push your repo to deploy!
 
