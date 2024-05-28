@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 
 const app = new Hono();
 
-const DOMAIN = 'https://go.gm.dev';
+const DOMAIN = 'https://gm.dev';
 
 app.get('*', async (c) => {
   const statusCode = 301;
